@@ -10,53 +10,54 @@ It was completed as part of the **COE328 – Digital Systems** course at **Toron
 The project includes four VHDL-based modules:
 
 ### ✔️ 1. Multiplexer (MUX)
-- Implements a **2:1 multiplexer** (mux.vhd)
-- Implements a **4:1 multiplexer using two 2:1 muxes** (muxModified.bdf)
+- Implements a **2:1 multiplexer** (`mux.vhd`)
+- Implements a **4:1 multiplexer using two 2:1 muxes** (`mux.bdf`)
 
 ### ✔️ 2. Decoder
-- Implements a **2:4 decoder** (decode.vhd)
-- Implements a **3:8 decoder using two 2:4 decoders** (decodModified.bdf)
+- Implements a **2:4 decoder** (`decode.vhd`)
+- Implements a **3:8 decoder using two 2:4 decoders** (`decode.bdf`)
 
 ### ✔️ 3. Encoder
-- Implements a **4-to-2 encoder** (encod.vhd)
+- Implements a **4-to-2 encoder** (`encode.vhd`)
+- Implements a **4-to-2 encoder**(`encode.bdf`)
 
 ### ✔️ 4. Johnson Counter
-- Implements a **3-bit Johnson counter with feedback**
-- Cycles through the last 6 digits of the student ID using a 4-bit display output
-- Includes waveform/state transition simulations
+- Implements a **3-bit Johnson counter** with feedback  
+- Cycles through the last 6 digits of the student ID using a 4-bit output  
+- Includes waveform/state transition simulation
 
 ---
 
 ## 📁 Project Structure
 
-# VHDL-Combinational-and-Sequential-Circuits
-VHDL implementation of multiplexer, decoder, encoder, and Johnson counter using Quartus II for TMU COE328 Digital Systems Lab 4.
+```bash
 Project 1/
 │
 ├── mux/
-│ ├── mux.vhd
-│ ├── muxModified.bdf
-│ └── simulation/
+│   ├── mux.vhd
+│   ├── muxModified.bdf
+│   └── simulation/
 │
 ├── decode/
-│ ├── decode.vhd
-│ ├── decodModified.bdf
-│ └── simulation/
+│   ├── decode.vhd
+│   ├── decodModified.bdf
+│   └── simulation/
 │
 ├── encod/
-│ ├── encod.vhd
-│ └── simulation/
+│   ├── encod.vhd
+│   └── simulation/
 │
 ├── johns/
-│ ├── johns.vhd
-│ ├── johns_tb.vhd
-│ └── simulation/
+│   ├── johns.vhd
+│   ├── johns_tb.vhd
+│   └── simulation/
 │
 ├── project_files/
-│ ├── *.qpf
-│ ├── *.qsf
+│   ├── *.qpf
+│   ├── *.qsf
 │
 └── README.md
+
 
 
 ---
